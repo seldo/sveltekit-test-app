@@ -8,15 +8,14 @@
     const document = await Client.getByUID('page',uid);
     return {
       props: {
-        document,
-        uid
+        document
       }
     };
   }
 </script>
 
 <script>
-    export let document, uid;
+    export let document;
 </script>
 
 <svelte:head>
