@@ -15,5 +15,8 @@
     "svelte": "^3.43.2",
     "svelte-image": "^0.2.9"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "encoding": "^0.1.13"
+  }
 }
